@@ -1,0 +1,7 @@
+python train_model.py --data_source csv --train provided/train.csv --test provided/test.csv --format pickle
+python train_model.py --data_source db --db_url "postgresql://postgres:password@localhost:5432/ml_model_db" --table_name "public.property_friends_model_data" --format pickle
+
+uvicorn app_api:app --reload
+
+
+

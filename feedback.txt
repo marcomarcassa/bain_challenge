@@ -1,0 +1,1 @@
+listar as versoes das dependencias, o scikit-learn tem que ser inferior ao 1.6 para ser compativel com category_encoders

@@ -1,0 +1,81 @@
+[
+{"timestamp": "2024-12-23T16:48:54.719605", "endpoint": "/predict", "method": "POST", "status_code": 200, "duration": 0.019837, "error": null}
+,
+{"timestamp": "2024-12-23T16:50:14.271588", "endpoint": "/predict", "method": "POST", "status_code": 200, "duration": 0.015509, "error": null}
+,
+{"timestamp": "2024-12-23T16:50:15.444604", "endpoint": "/predict", "method": "POST", "status_code": 200, "duration": 0.009326, "error": null}
+,
+{"timestamp": "2024-12-23T16:50:17.005929", "endpoint": "/predict", "method": "POST", "status_code": 200, "duration": 0.014024, "error": null}
+,
+{"timestamp": "2024-12-23T16:50:18.206868", "endpoint": "/predict", "method": "POST", "status_code": 200, "duration": 0.010089, "error": null}
+,
+{"timestamp": "2024-12-23T16:52:28.882180", "endpoint": "/predict", "method": "POST", "status_code": 200, "duration": 0.01491, "error": null}
+,
+{"timestamp": "2024-12-23T16:52:30.182950", "endpoint": "/predict", "method": "POST", "status_code": 200, "duration": 0.008512, "error": null}
+,
+{"timestamp": "2024-12-23T16:52:31.282094", "endpoint": "/predict", "method": "POST", "status_code": 200, "duration": 0.009513, "error": null}
+,
+{"timestamp": "2024-12-23T16:52:32.197728", "endpoint": "/predict", "method": "POST", "status_code": 200, "duration": 0.009509, "error": null}
+,
+{"timestamp": "2024-12-23T16:52:32.722988", "endpoint": "/predict", "method": "POST", "status_code": 200, "duration": 0.015577, "error": null}
+,
+{"timestamp": "2024-12-23T16:52:32.850776", "endpoint": "/predict", "method": "POST", "status_code": 200, "duration": 0.016132, "error": null}
+,
+{"timestamp": "2024-12-23T16:52:32.980150", "endpoint": "/predict", "method": "POST", "status_code": 200, "duration": 0.011522, "error": null}
+,
+{"timestamp": "2024-12-23T16:52:33.094000", "endpoint": "/predict", "method": "POST", "status_code": 200, "duration": 0.015976, "error": null}
+,
+{"timestamp": "2024-12-23T16:52:33.236505", "endpoint": "/predict", "method": "POST", "status_code": 200, "duration": 0.015215, "error": null}
+,
+{"timestamp": "2024-12-23T16:52:33.384307", "endpoint": "/predict", "method": "POST", "status_code": 200, "duration": 0.019882, "error": null}
+,
+{"timestamp": "2024-12-23T16:52:33.496684", "endpoint": "/predict", "method": "POST", "status_code": 200, "duration": 0.016293, "error": null}
+,
+{"timestamp": "2024-12-23T16:52:33.609836", "endpoint": "/predict", "method": "POST", "status_code": 200, "duration": 0.011287, "error": null}
+,
+{"timestamp": "2024-12-23T16:52:33.732855", "endpoint": "/predict", "method": "POST", "status_code": 200, "duration": 0.015825, "error": null}
+,
+{"timestamp": "2024-12-23T16:52:33.854600", "endpoint": "/predict", "method": "POST", "status_code": 200, "duration": 0.015508, "error": null}
+,
+{"timestamp": "2024-12-23T16:52:34.000631", "endpoint": "/predict", "method": "POST", "status_code": 200, "duration": 0.016757, "error": null}
+,
+{"timestamp": "2024-12-23T16:52:34.118454", "endpoint": "/predict", "method": "POST", "status_code": 200, "duration": 0.014195, "error": null}
+,
+{"timestamp": "2024-12-23T16:52:34.261957", "endpoint": "/predict", "method": "POST", "status_code": 200, "duration": 0.017456, "error": null}
+,
+{"timestamp": "2024-12-23T16:52:34.377912", "endpoint": "/predict", "method": "POST", "status_code": 200, "duration": 0.017549, "error": null}
+,
+{"timestamp": "2024-12-23T16:52:34.505065", "endpoint": "/predict", "method": "POST", "status_code": 200, "duration": 0.017029, "error": null}
+,
+{"timestamp": "2024-12-23T17:02:21.904996", "endpoint": "/predict", "method": "POST", "status_code": 200, "duration": 0.027473, "error": null}
+,
+{"timestamp": "2024-12-23T17:02:24.885168", "endpoint": "/predict", "method": "POST", "status_code": 200, "duration": 0.017729, "error": null}
+,
+{"timestamp": "2024-12-23T17:02:32.855936", "endpoint": "/predict", "method": "POST", "status_code": 200, "duration": 0.013021, "error": null}
+,
+{"timestamp": "2024-12-23T17:49:30.564308", "endpoint": "/predict", "method": "POST", "status_code": 200, "duration": 0.018118, "error": null}
+,
+{"timestamp": "2024-12-24T09:33:14.488493", "endpoint": "/predict", "method": "POST", "status_code": 200, "duration": 0.074751, "error": null}
+,
+{"timestamp": "2024-12-24T09:33:16.610798", "endpoint": "/predict", "method": "POST", "status_code": 200, "duration": 0.014424, "error": null}
+,
+{"timestamp": "2024-12-24T09:33:24.277733", "endpoint": "/predict", "method": "POST", "status_code": 200, "duration": 0.014513, "error": null}
+,
+{"timestamp": "2024-12-24T09:33:27.011549", "endpoint": "/predict", "method": "POST", "status_code": 200, "duration": 0.011852, "error": null}
+,
+{"timestamp": "2024-12-24T09:33:33.213653", "endpoint": "/predict", "method": "POST", "status_code": 200, "duration": 0.011519, "error": null}
+,
+{"timestamp": "2024-12-24T09:33:34.106857", "endpoint": "/predict", "method": "POST", "status_code": 200, "duration": 0.019026, "error": null}
+,
+{"timestamp": "2024-12-24T09:33:34.983129", "endpoint": "/predict", "method": "POST", "status_code": 200, "duration": 0.015076, "error": null}
+,
+{"timestamp": "2024-12-24T09:33:35.812617", "endpoint": "/predict", "method": "POST", "status_code": 200, "duration": 0.015662, "error": null}
+,
+{"timestamp": "2024-12-24T09:33:36.650781", "endpoint": "/predict", "method": "POST", "status_code": 200, "duration": 0.01398, "error": null}
+,
+{"timestamp": "2024-12-24T09:33:37.375193", "endpoint": "/predict", "method": "POST", "status_code": 200, "duration": 0.010512, "error": null}
+,
+{"timestamp": "2024-12-24T09:33:43.421845", "endpoint": "/predict", "method": "POST", "status_code": 200, "duration": 0.020535, "error": null}
+,
+{"timestamp": "2024-12-24T09:33:44.720394", "endpoint": "/predict", "method": "POST", "status_code": 200, "duration": 0.014261, "error": null}
+]
