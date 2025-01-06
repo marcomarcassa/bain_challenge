@@ -3,18 +3,23 @@ import requests
 import pandas as pd
 import matplotlib.pyplot as plt
 import toml
+
 import os
+import sys
+current_dir = os.path.dirname(os.path.abspath(__file__))
+sys.path.insert(0, current_dir)
+from streamlit_utils import show_sidebar_pages
+show_sidebar_pages()
 
 # Function to load the API key from secrets.toml
 def load_api_key():
     try:
-        secrets = toml.load("secrets.toml")
+        secrets = toml.load("API/secrets.toml")
         return secrets.get("property_friends", "API_KEY_NOT_FOUND")
     except Exception as e:
         st.error(f"Error loading API key: {e}")
         return None
 
-# Function to make prediction requests to the API
 def get_prediction(api_key, data):
     url = "http://127.0.0.1:8000/predict"
     headers = {
@@ -25,6 +30,8 @@ def get_prediction(api_key, data):
         response = requests.post(url, headers=headers, json=data)
         if response.status_code == 200:
             return response.json()
+        elif response.status_code == 429:
+            return {"error": "Rate Limit Exceeded", "details": response.text}
         else:
             return {"error": f"API Error: {response.status_code}", "details": response.text}
     except Exception as e:
@@ -68,17 +75,14 @@ def test_prediction_page():
             "latitude": latitude,
             "longitude": longitude,
         }
-
-        # Call the prediction API
         result = get_prediction(api_key, data)
-
-        # Display results
         if "error" in result:
-            st.error(f"Error: {result['error']}")
-            st.write(result.get("details", ""))
+            if result["error"] == "Rate Limit Exceeded":
+                st.error("Rate limit exceeded. Please try again later.")
+            else:
+                st.error(f"Error: {result['error']}\nDetails: {result['details']}")
         else:
-            st.success("Prediction received successfully!")
-            st.json(result)
+            st.write("Prediction Result:", result)
 
 # Run the Test Prediction Page
 if __name__ == "__main__":

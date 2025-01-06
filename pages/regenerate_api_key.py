@@ -1,6 +1,13 @@
 import streamlit as st
 import toml
-from utils import generate_api_key
+from API.utils import generate_api_key
+
+import os
+import sys
+current_dir = os.path.dirname(os.path.abspath(__file__))
+sys.path.insert(0, current_dir)
+from streamlit_utils import show_sidebar_pages
+show_sidebar_pages()
 
 # Streamlit Page for Regenerating API Key
 def regenerate_api_key_page():
@@ -9,7 +16,7 @@ def regenerate_api_key_page():
 
     # Display the current API key
     try:
-        secrets_dict = toml.load("secrets.toml")
+        secrets_dict = toml.load("API/secrets.toml")
         current_api_key = secrets_dict.get("property_friends", "API_KEY_NOT_FOUND")
         st.info(f"Current API Key: {current_api_key}")
     except Exception as e:

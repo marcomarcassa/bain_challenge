@@ -246,3 +246,208 @@
 2024-12-24 09:33:44,720 - PropertyValuationAPI - INFO - Incoming request: POST http://127.0.0.1:8000/predict
 2024-12-24 09:33:44,734 - PropertyValuationAPI - INFO - Prediction generated successfully
 2024-12-24 09:33:44,736 - PropertyValuationAPI - INFO - Response status: 200
+2025-01-05 15:49:19,081 - PropertyValuationAPI - INFO - Incoming request: POST http://127.0.0.1:8000/predict
+2025-01-05 15:49:19,090 - PropertyValuationAPI - INFO - Prediction generated successfully
+2025-01-05 15:49:19,099 - PropertyValuationAPI - INFO - Response status: 200
+2025-01-05 16:30:24,555 - PropertyValuationAPI - INFO - Incoming request: GET http://localhost:8000/docs
+2025-01-05 16:30:24,557 - PropertyValuationAPI - INFO - Response status: 200
+2025-01-05 16:30:26,993 - PropertyValuationAPI - INFO - Incoming request: GET http://localhost:8000/openapi.json
+2025-01-05 16:30:27,010 - PropertyValuationAPI - INFO - Response status: 200
+2025-01-05 16:55:10,187 - PropertyValuationAPI - INFO - Incoming request: GET http://localhost:8000/docs
+2025-01-05 16:55:10,190 - PropertyValuationAPI - INFO - Response status: 200
+2025-01-05 16:55:12,332 - PropertyValuationAPI - INFO - Incoming request: GET http://localhost:8000/openapi.json
+2025-01-05 16:55:12,343 - PropertyValuationAPI - INFO - Response status: 200
+2025-01-05 16:57:49,410 - PropertyValuationAPI - INFO - Incoming request: GET http://localhost:8000/docs
+2025-01-05 16:57:49,410 - PropertyValuationAPI - INFO - Response status: 200
+2025-01-05 16:57:51,644 - PropertyValuationAPI - INFO - Incoming request: GET http://localhost:8000/openapi.json
+2025-01-05 16:57:51,661 - PropertyValuationAPI - INFO - Response status: 200
+2025-01-05 17:01:35,647 - PropertyValuationAPI - INFO - Incoming request: GET http://localhost:8000/docs
+2025-01-05 17:01:35,649 - PropertyValuationAPI - INFO - Response status: 200
+2025-01-05 17:01:37,779 - PropertyValuationAPI - INFO - Incoming request: GET http://localhost:8000/openapi.json
+2025-01-05 17:01:37,789 - PropertyValuationAPI - INFO - Response status: 200
+2025-01-05 17:06:10,512 - PropertyValuationAPI - INFO - Incoming request: GET http://localhost:8000/docs
+2025-01-05 17:06:10,514 - PropertyValuationAPI - INFO - Response status: 200
+2025-01-05 17:06:12,808 - PropertyValuationAPI - INFO - Incoming request: GET http://localhost:8000/openapi.json
+2025-01-05 17:06:12,821 - PropertyValuationAPI - INFO - Response status: 200
+2025-01-05 18:00:04,818 - PropertyValuationAPI - INFO - Incoming request: GET http://localhost:8000/docs
+2025-01-05 18:00:04,826 - PropertyValuationAPI - INFO - Response status: 200
+2025-01-05 18:00:07,218 - PropertyValuationAPI - INFO - Incoming request: GET http://localhost:8000/openapi.json
+2025-01-05 18:00:07,230 - PropertyValuationAPI - INFO - Response status: 200
+2025-01-05 18:04:35,052 - PropertyValuationAPI - INFO - Incoming request: GET http://localhost:8000/docs
+2025-01-05 18:04:35,061 - PropertyValuationAPI - INFO - Response status: 200
+2025-01-05 18:04:37,396 - PropertyValuationAPI - INFO - Incoming request: GET http://localhost:8000/openapi.json
+2025-01-05 18:04:37,413 - PropertyValuationAPI - INFO - Response status: 200
+2025-01-05 18:04:45,534 - PropertyValuationAPI - INFO - Incoming request: GET http://localhost:8000/model_metadata
+2025-01-05 18:04:45,544 - PropertyValuationAPI - INFO - Response status: 200
+2025-01-05 18:05:12,688 - PropertyValuationAPI - INFO - Incoming request: GET http://localhost:8000/status
+2025-01-05 18:05:12,695 - PropertyValuationAPI - INFO - Response status: 200
+2025-01-05 18:05:25,273 - PropertyValuationAPI - INFO - Incoming request: GET http://localhost:8000/logs
+2025-01-05 18:05:25,292 - PropertyValuationAPI - INFO - Response status: 200
+2025-01-05 18:06:10,154 - PropertyValuationAPI - INFO - Incoming request: GET http://localhost:8000/docs
+2025-01-05 18:06:10,161 - PropertyValuationAPI - INFO - Response status: 200
+2025-01-05 18:06:12,421 - PropertyValuationAPI - INFO - Incoming request: GET http://localhost:8000/openapi.json
+2025-01-05 18:06:12,435 - PropertyValuationAPI - INFO - Response status: 200
+2025-01-05 18:10:00,075 - PropertyValuationAPI - INFO - Incoming request: GET http://localhost:8000/docs
+2025-01-05 18:10:00,084 - PropertyValuationAPI - INFO - Response status: 200
+2025-01-05 18:10:02,443 - PropertyValuationAPI - INFO - Incoming request: GET http://localhost:8000/openapi.json
+2025-01-05 18:10:02,456 - PropertyValuationAPI - INFO - Response status: 200
+2025-01-05 18:10:29,178 - PropertyValuationAPI - INFO - Incoming request: GET http://localhost:8000/docs
+2025-01-05 18:10:29,185 - PropertyValuationAPI - INFO - Response status: 200
+2025-01-05 18:10:31,417 - PropertyValuationAPI - INFO - Incoming request: GET http://localhost:8000/openapi.json
+2025-01-05 18:10:31,428 - PropertyValuationAPI - INFO - Response status: 200
+2025-01-05 18:10:35,356 - PropertyValuationAPI - INFO - Incoming request: GET http://localhost:8000/model_history
+2025-01-05 18:10:35,364 - PropertyValuationAPI - INFO - Response status: 200
+2025-01-05 20:27:35,863 - PropertyValuationAPI - INFO - Incoming request: POST http://127.0.0.1:8000/predict
+2025-01-05 20:27:49,822 - PropertyValuationAPI - INFO - Incoming request: POST http://127.0.0.1:8000/predict
+2025-01-05 20:28:00,077 - PropertyValuationAPI - INFO - Incoming request: POST http://127.0.0.1:8000/predict
+2025-01-05 20:28:23,714 - PropertyValuationAPI - INFO - Incoming request: POST http://127.0.0.1:8000/predict
+2025-01-05 20:28:23,722 - PropertyValuationAPI - INFO - Prediction generated successfully
+2025-01-05 20:28:23,723 - PropertyValuationAPI - INFO - Response status: 200
+2025-01-05 20:28:44,276 - PropertyValuationAPI - INFO - Incoming request: POST http://127.0.0.1:8000/predict
+2025-01-05 20:28:44,282 - PropertyValuationAPI - INFO - Prediction generated successfully
+2025-01-05 20:28:44,291 - PropertyValuationAPI - INFO - Response status: 200
+2025-01-05 20:43:39,513 - PropertyValuationAPI - INFO - Incoming request: POST http://127.0.0.1:8000/predict
+2025-01-05 20:43:39,521 - PropertyValuationAPI - INFO - Prediction generated successfully
+2025-01-05 20:43:39,522 - PropertyValuationAPI - INFO - Response status: 200
+2025-01-05 20:43:45,870 - PropertyValuationAPI - INFO - Incoming request: POST http://127.0.0.1:8000/predict
+2025-01-05 20:43:45,875 - PropertyValuationAPI - INFO - Prediction generated successfully
+2025-01-05 20:43:45,883 - PropertyValuationAPI - INFO - Response status: 200
+2025-01-05 20:43:47,267 - PropertyValuationAPI - INFO - Incoming request: POST http://127.0.0.1:8000/predict
+2025-01-05 20:43:47,273 - PropertyValuationAPI - INFO - Prediction generated successfully
+2025-01-05 20:43:47,281 - PropertyValuationAPI - INFO - Response status: 200
+2025-01-05 20:43:48,729 - PropertyValuationAPI - INFO - Incoming request: POST http://127.0.0.1:8000/predict
+2025-01-05 20:43:48,734 - PropertyValuationAPI - INFO - Prediction generated successfully
+2025-01-05 20:43:48,743 - PropertyValuationAPI - INFO - Response status: 200
+2025-01-05 20:43:49,569 - PropertyValuationAPI - INFO - Incoming request: POST http://127.0.0.1:8000/predict
+2025-01-05 20:43:49,573 - PropertyValuationAPI - INFO - Prediction generated successfully
+2025-01-05 20:43:49,580 - PropertyValuationAPI - INFO - Response status: 200
+2025-01-05 20:43:50,288 - PropertyValuationAPI - INFO - Incoming request: POST http://127.0.0.1:8000/predict
+2025-01-05 20:43:52,069 - PropertyValuationAPI - INFO - Incoming request: POST http://127.0.0.1:8000/predict
+2025-01-05 20:45:22,456 - PropertyValuationAPI - INFO - Incoming request: POST http://127.0.0.1:8000/predict
+2025-01-05 20:45:22,464 - PropertyValuationAPI - INFO - Prediction generated successfully
+2025-01-05 20:45:22,472 - PropertyValuationAPI - INFO - Response status: 200
+2025-01-05 20:45:23,741 - PropertyValuationAPI - INFO - Incoming request: POST http://127.0.0.1:8000/predict
+2025-01-05 20:45:23,747 - PropertyValuationAPI - INFO - Prediction generated successfully
+2025-01-05 20:45:23,756 - PropertyValuationAPI - INFO - Response status: 200
+2025-01-05 20:45:24,567 - PropertyValuationAPI - INFO - Incoming request: POST http://127.0.0.1:8000/predict
+2025-01-05 20:45:24,571 - PropertyValuationAPI - INFO - Prediction generated successfully
+2025-01-05 20:45:24,579 - PropertyValuationAPI - INFO - Response status: 200
+2025-01-05 20:45:25,370 - PropertyValuationAPI - INFO - Incoming request: POST http://127.0.0.1:8000/predict
+2025-01-05 20:45:25,373 - PropertyValuationAPI - INFO - Prediction generated successfully
+2025-01-05 20:45:25,382 - PropertyValuationAPI - INFO - Response status: 200
+2025-01-05 20:45:26,063 - PropertyValuationAPI - INFO - Incoming request: POST http://127.0.0.1:8000/predict
+2025-01-05 20:45:26,068 - PropertyValuationAPI - INFO - Prediction generated successfully
+2025-01-05 20:45:26,075 - PropertyValuationAPI - INFO - Response status: 200
+2025-01-05 20:45:26,867 - PropertyValuationAPI - INFO - Incoming request: POST http://127.0.0.1:8000/predict
+2025-01-05 20:48:43,881 - PropertyValuationAPI - INFO - Incoming request: POST http://127.0.0.1:8000/predict
+2025-01-05 20:48:43,888 - PropertyValuationAPI - INFO - Prediction generated successfully
+2025-01-05 20:48:43,900 - PropertyValuationAPI - INFO - Response status: 200
+2025-01-05 20:48:46,281 - PropertyValuationAPI - INFO - Incoming request: POST http://127.0.0.1:8000/predict
+2025-01-05 20:48:46,281 - PropertyValuationAPI - INFO - Incoming request: POST http://127.0.0.1:8000/predict
+2025-01-05 20:48:46,292 - PropertyValuationAPI - INFO - Prediction generated successfully
+2025-01-05 20:48:46,295 - PropertyValuationAPI - INFO - Prediction generated successfully
+2025-01-05 20:48:46,303 - PropertyValuationAPI - INFO - Response status: 200
+2025-01-05 20:48:46,312 - PropertyValuationAPI - INFO - Response status: 200
+2025-01-05 20:48:46,877 - PropertyValuationAPI - INFO - Incoming request: POST http://127.0.0.1:8000/predict
+2025-01-05 20:48:46,882 - PropertyValuationAPI - INFO - Prediction generated successfully
+2025-01-05 20:48:46,890 - PropertyValuationAPI - INFO - Response status: 200
+2025-01-05 20:48:47,944 - PropertyValuationAPI - INFO - Incoming request: POST http://127.0.0.1:8000/predict
+2025-01-05 20:48:47,949 - PropertyValuationAPI - INFO - Prediction generated successfully
+2025-01-05 20:48:47,957 - PropertyValuationAPI - INFO - Response status: 200
+2025-01-05 20:48:48,763 - PropertyValuationAPI - INFO - Incoming request: POST http://127.0.0.1:8000/predict
+2025-01-05 20:48:48,767 - PropertyValuationAPI - INFO - Prediction generated successfully
+2025-01-05 20:48:48,775 - PropertyValuationAPI - INFO - Response status: 200
+2025-01-05 20:48:49,595 - PropertyValuationAPI - INFO - Incoming request: POST http://127.0.0.1:8000/predict
+2025-01-05 20:48:55,340 - PropertyValuationAPI - INFO - Incoming request: POST http://127.0.0.1:8000/predict
+2025-01-05 20:48:57,513 - PropertyValuationAPI - INFO - Incoming request: POST http://127.0.0.1:8000/predict
+2025-01-05 20:49:34,863 - PropertyValuationAPI - INFO - Incoming request: POST http://127.0.0.1:8000/predict
+2025-01-05 20:49:36,849 - PropertyValuationAPI - INFO - Incoming request: POST http://127.0.0.1:8000/predict
+2025-01-05 20:49:36,857 - PropertyValuationAPI - INFO - Prediction generated successfully
+2025-01-05 20:49:36,864 - PropertyValuationAPI - INFO - Response status: 200
+2025-01-05 20:49:37,733 - PropertyValuationAPI - INFO - Incoming request: POST http://127.0.0.1:8000/predict
+2025-01-05 20:49:37,738 - PropertyValuationAPI - INFO - Prediction generated successfully
+2025-01-05 20:49:37,746 - PropertyValuationAPI - INFO - Response status: 200
+2025-01-05 20:49:38,411 - PropertyValuationAPI - INFO - Incoming request: POST http://127.0.0.1:8000/predict
+2025-01-05 20:49:38,416 - PropertyValuationAPI - INFO - Prediction generated successfully
+2025-01-05 20:49:38,424 - PropertyValuationAPI - INFO - Response status: 200
+2025-01-05 20:49:38,839 - PropertyValuationAPI - INFO - Incoming request: POST http://127.0.0.1:8000/predict
+2025-01-05 20:49:38,843 - PropertyValuationAPI - INFO - Prediction generated successfully
+2025-01-05 20:49:38,852 - PropertyValuationAPI - INFO - Response status: 200
+2025-01-05 20:49:39,126 - PropertyValuationAPI - INFO - Incoming request: POST http://127.0.0.1:8000/predict
+2025-01-05 20:49:39,131 - PropertyValuationAPI - INFO - Prediction generated successfully
+2025-01-05 20:49:39,140 - PropertyValuationAPI - INFO - Response status: 200
+2025-01-05 20:49:39,513 - PropertyValuationAPI - INFO - Incoming request: POST http://127.0.0.1:8000/predict
+2025-01-05 20:50:48,759 - PropertyValuationAPI - INFO - Incoming request: POST http://127.0.0.1:8000/predict
+2025-01-05 20:50:48,759 - PropertyValuationAPI - INFO - Incoming request: POST http://127.0.0.1:8000/predict
+2025-01-05 20:50:48,759 - PropertyValuationAPI - INFO - Incoming request: POST http://127.0.0.1:8000/predict
+2025-01-05 20:50:48,768 - PropertyValuationAPI - INFO - Prediction generated successfully
+2025-01-05 20:50:48,771 - PropertyValuationAPI - INFO - Prediction generated successfully
+2025-01-05 20:50:48,775 - PropertyValuationAPI - INFO - Prediction generated successfully
+2025-01-05 20:50:48,779 - PropertyValuationAPI - INFO - Response status: 200
+2025-01-05 20:50:48,789 - PropertyValuationAPI - INFO - Response status: 200
+2025-01-05 20:50:48,796 - PropertyValuationAPI - INFO - Response status: 200
+2025-01-05 20:50:51,235 - PropertyValuationAPI - INFO - Incoming request: POST http://127.0.0.1:8000/predict
+2025-01-05 20:50:51,240 - PropertyValuationAPI - INFO - Prediction generated successfully
+2025-01-05 20:50:51,246 - PropertyValuationAPI - INFO - Response status: 200
+2025-01-05 20:50:52,201 - PropertyValuationAPI - INFO - Incoming request: POST http://127.0.0.1:8000/predict
+2025-01-05 20:50:52,210 - PropertyValuationAPI - INFO - Prediction generated successfully
+2025-01-05 20:50:52,219 - PropertyValuationAPI - INFO - Response status: 200
+2025-01-05 20:50:53,058 - PropertyValuationAPI - INFO - Incoming request: POST http://127.0.0.1:8000/predict
+2025-01-05 20:50:54,413 - PropertyValuationAPI - INFO - Incoming request: POST http://127.0.0.1:8000/predict
+2025-01-05 20:50:55,550 - PropertyValuationAPI - INFO - Incoming request: POST http://127.0.0.1:8000/predict
+2025-01-05 20:50:56,461 - PropertyValuationAPI - INFO - Incoming request: POST http://127.0.0.1:8000/predict
+2025-01-05 20:52:50,111 - PropertyValuationAPI - INFO - Incoming request: POST http://127.0.0.1:8000/predict
+2025-01-05 20:52:50,117 - PropertyValuationAPI - INFO - Prediction generated successfully
+2025-01-05 20:52:50,127 - PropertyValuationAPI - INFO - Response status: 200
+2025-01-05 20:52:52,469 - PropertyValuationAPI - INFO - Incoming request: POST http://127.0.0.1:8000/predict
+2025-01-05 20:52:52,477 - PropertyValuationAPI - INFO - Prediction generated successfully
+2025-01-05 20:52:52,484 - PropertyValuationAPI - INFO - Response status: 200
+2025-01-05 20:52:53,162 - PropertyValuationAPI - INFO - Incoming request: POST http://127.0.0.1:8000/predict
+2025-01-05 20:52:53,167 - PropertyValuationAPI - INFO - Prediction generated successfully
+2025-01-05 20:52:53,177 - PropertyValuationAPI - INFO - Response status: 200
+2025-01-05 20:52:53,957 - PropertyValuationAPI - INFO - Incoming request: POST http://127.0.0.1:8000/predict
+2025-01-05 20:52:53,962 - PropertyValuationAPI - INFO - Prediction generated successfully
+2025-01-05 20:52:53,970 - PropertyValuationAPI - INFO - Response status: 200
+2025-01-05 20:52:54,757 - PropertyValuationAPI - INFO - Incoming request: POST http://127.0.0.1:8000/predict
+2025-01-05 20:52:54,762 - PropertyValuationAPI - INFO - Prediction generated successfully
+2025-01-05 20:52:54,770 - PropertyValuationAPI - INFO - Response status: 200
+2025-01-05 20:52:55,652 - PropertyValuationAPI - INFO - Incoming request: POST http://127.0.0.1:8000/predict
+2025-01-05 20:52:55,657 - PropertyValuationAPI - INFO - Prediction generated successfully
+2025-01-05 20:52:55,666 - PropertyValuationAPI - INFO - Response status: 200
+2025-01-05 20:52:56,738 - PropertyValuationAPI - INFO - Incoming request: POST http://127.0.0.1:8000/predict
+2025-01-05 20:52:58,006 - PropertyValuationAPI - INFO - Incoming request: POST http://127.0.0.1:8000/predict
+2025-01-05 20:53:02,048 - PropertyValuationAPI - INFO - Incoming request: POST http://127.0.0.1:8000/predict
+2025-01-05 20:53:03,227 - PropertyValuationAPI - INFO - Incoming request: POST http://127.0.0.1:8000/predict
+2025-01-05 20:53:04,870 - PropertyValuationAPI - INFO - Incoming request: POST http://127.0.0.1:8000/predict
+2025-01-05 20:56:27,298 - PropertyValuationAPI - INFO - Incoming request: POST http://127.0.0.1:8000/predict
+2025-01-05 20:56:27,306 - PropertyValuationAPI - INFO - Prediction generated successfully
+2025-01-05 20:56:27,314 - PropertyValuationAPI - INFO - Response status: 200
+2025-01-05 20:56:29,600 - PropertyValuationAPI - INFO - Incoming request: POST http://127.0.0.1:8000/predict
+2025-01-05 20:56:29,608 - PropertyValuationAPI - INFO - Prediction generated successfully
+2025-01-05 20:56:29,616 - PropertyValuationAPI - INFO - Response status: 200
+2025-01-05 20:56:30,105 - PropertyValuationAPI - INFO - Incoming request: POST http://127.0.0.1:8000/predict
+2025-01-05 20:56:30,110 - PropertyValuationAPI - INFO - Prediction generated successfully
+2025-01-05 20:56:30,118 - PropertyValuationAPI - INFO - Response status: 200
+2025-01-05 20:56:30,949 - PropertyValuationAPI - INFO - Incoming request: POST http://127.0.0.1:8000/predict
+2025-01-05 20:56:30,952 - PropertyValuationAPI - INFO - Prediction generated successfully
+2025-01-05 20:56:30,961 - PropertyValuationAPI - INFO - Response status: 200
+2025-01-05 20:56:32,230 - PropertyValuationAPI - INFO - Incoming request: POST http://127.0.0.1:8000/predict
+2025-01-05 20:56:32,236 - PropertyValuationAPI - INFO - Prediction generated successfully
+2025-01-05 20:56:32,243 - PropertyValuationAPI - INFO - Response status: 200
+2025-01-05 20:56:32,972 - PropertyValuationAPI - INFO - Incoming request: POST http://127.0.0.1:8000/predict
+2025-01-05 20:56:32,977 - PropertyValuationAPI - INFO - Prediction generated successfully
+2025-01-05 20:56:32,985 - PropertyValuationAPI - INFO - Response status: 200
+2025-01-05 20:56:33,967 - PropertyValuationAPI - INFO - Incoming request: POST http://127.0.0.1:8000/predict
+2025-01-05 21:05:26,425 - PropertyValuationAPI - INFO - Incoming request: POST http://127.0.0.1:8000/predict
+2025-01-05 21:05:26,434 - PropertyValuationAPI - INFO - Prediction generated successfully
+2025-01-05 21:05:26,447 - PropertyValuationAPI - INFO - Response status: 200
+2025-01-05 21:05:34,063 - PropertyValuationAPI - INFO - Incoming request: POST http://127.0.0.1:8000/predict
+2025-01-05 21:05:34,072 - PropertyValuationAPI - INFO - Prediction generated successfully
+2025-01-05 21:05:34,081 - PropertyValuationAPI - INFO - Response status: 200
+2025-01-05 21:05:38,303 - PropertyValuationAPI - INFO - Incoming request: POST http://127.0.0.1:8000/predict
+2025-01-05 21:05:38,310 - PropertyValuationAPI - INFO - Prediction generated successfully
+2025-01-05 21:05:38,319 - PropertyValuationAPI - INFO - Response status: 200
+2025-01-05 22:48:46,607 - PropertyValuationAPI - INFO - Incoming request: GET http://localhost:8000/docs
+2025-01-05 22:48:46,618 - PropertyValuationAPI - INFO - Response status: 200
+2025-01-05 22:48:46,727 - PropertyValuationAPI - INFO - Incoming request: GET http://localhost:8000/openapi.json
+2025-01-05 22:48:46,761 - PropertyValuationAPI - INFO - Response status: 200

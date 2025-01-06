@@ -4,6 +4,14 @@ from datetime import datetime
 import plotly.graph_objects as go
 
 
+import sys
+import os
+current_dir = os.path.dirname(os.path.abspath(__file__))
+sys.path.insert(0, current_dir)
+from streamlit_utils import show_sidebar_pages
+show_sidebar_pages()
+
+
 # Load API logs and model metrics
 def load_logs_and_metrics():
     # Load API logs
@@ -44,6 +52,7 @@ def display_api_logs_tab(api_logs):
     st.metric("Error Count", error_count)
 
     if api_logs:
+        st.divider()
         with st.expander("View Raw Logs"):
             st.json(api_logs)
 
@@ -75,9 +84,9 @@ def display_model_quality_tab(model_metrics):
 
         # Display metrics with legend and collapsible charts
         metrics = {
-            "RMSE": "Root Mean Squared Error - Measures the average magnitude of prediction errors.",
-            "MAPE": "Mean Absolute Percentage Error - Shows average percentage difference between predicted and true values.",
-            "MAE": "Mean Absolute Error - Measures the average absolute difference between predicted and true values."
+            "RMSE": "Root Mean Squared Error - Measures the average magnitude of prediction errors. (Lower is better).",
+            "MAPE": "Mean Absolute Percentage Error - Shows average percentage difference between predicted and true values. (Lower is better)",
+            "MAE": "Mean Absolute Error - Measures the average absolute difference between predicted and true values. (Lower is better)"
         }
 
         for metric, legend in metrics.items():
@@ -131,6 +140,7 @@ def display_model_quality_tab(model_metrics):
                 st.plotly_chart(fig, use_container_width=True)
 
         # Optionally show all metrics for debugging or exploration
+        st.divider()
         with st.expander("View All Model Metrics"):
             st.json(model_metrics)
 

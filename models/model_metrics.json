@@ -71,34 +71,220 @@
         "MAE": 6716.468206493689,
         "timestamp": "2024-12-25T16:40:08.632124"
     },
-    "models/property_friends_v13.pkl": {
-        "RMSE": 9994.05949771598,
-        "MAPE": 9000755441099054.0,
-        "MAE": 6636.049514733151,
-        "timestamp": "2024-12-25T16:44:09.655165"
+    "models/property_friends_v19.pkl": {
+        "RMSE": 10210.6385445972,
+        "MAPE": 0.9700475653886999,
+        "MAE": 6689.489211064686,
+        "timestamp": "2025-01-05T18:34:47.476018"
     },
-    "models/property_friends_v14.pkl": {
-        "RMSE": 9994.05949771598,
-        "MAPE": 9000755441099054.0,
-        "MAE": 6636.04951473315,
-        "timestamp": "2024-12-25T16:46:25.543885"
+    "models/property_friends_v21.joblib": {
+        "RMSE": 10210.6385445972,
+        "MAPE": 0.9700475653887,
+        "MAE": 6689.489211064686,
+        "timestamp": "2025-01-05T18:55:42.002357"
     },
-    "models/property_friends_v15.pkl": {
-        "RMSE": 9994.05949771598,
-        "MAPE": 9000755441099054.0,
-        "MAE": 6636.04951473315,
-        "timestamp": "2024-12-25T16:52:35.539281"
+    "models/property_friends_v22.pkl": {
+        "RMSE": 10210.6385445972,
+        "MAPE": 0.9700475653887,
+        "MAE": 6689.489211064686,
+        "timestamp": "2025-01-05T18:56:15.451263"
     },
-    "models/property_friends_v16.pkl": {
-        "RMSE": 9994.05949771598,
-        "MAPE": 9000755441099054.0,
-        "MAE": 6636.04951473315,
-        "timestamp": "2024-12-25T16:53:37.148648"
+    "models/property_friends_v23.pkl": {
+        "RMSE": 10210.6385445972,
+        "MAPE": 0.9700475653886999,
+        "MAE": 6689.489211064686,
+        "timestamp": "2025-01-05T18:56:25.889376"
     },
-    "models/property_friends_v17.pkl": {
-        "RMSE": 9994.05949771598,
-        "MAPE": 9000755441099054.0,
-        "MAE": 6636.049514733151,
-        "timestamp": "2024-12-25T19:04:53.559352"
+    "models/property_friends_v24.pkl": {
+        "RMSE": 10210.638544597201,
+        "MAPE": 0.9700475653886999,
+        "MAE": 6689.489211064686,
+        "timestamp": "2025-01-05T18:56:26.821685"
+    },
+    "models/property_friends_v25.pkl": {
+        "RMSE": 10210.638544597201,
+        "MAPE": 0.9700475653886999,
+        "MAE": 6689.489211064686,
+        "timestamp": "2025-01-05T18:56:27.656887"
+    },
+    "models/property_friends_v26.pkl": {
+        "RMSE": 10210.6385445972,
+        "MAPE": 0.9700475653887,
+        "MAE": 6689.489211064687,
+        "timestamp": "2025-01-05T18:56:28.459744"
+    },
+    "models/property_friends_v27.pkl": {
+        "RMSE": 10210.6385445972,
+        "MAPE": 0.9700475653886999,
+        "MAE": 6689.489211064686,
+        "timestamp": "2025-01-05T18:56:29.298382"
+    },
+    "models/property_friends_v28.pkl": {
+        "RMSE": 10210.6385445972,
+        "MAPE": 0.9700475653886999,
+        "MAE": 6689.489211064686,
+        "timestamp": "2025-01-05T18:56:30.090676"
+    },
+    "models/property_friends_v29.pkl": {
+        "RMSE": 10210.638544597201,
+        "MAPE": 0.9700475653887,
+        "MAE": 6689.489211064686,
+        "timestamp": "2025-01-05T18:56:30.853199"
+    },
+    "models/property_friends_v30.pkl": {
+        "RMSE": 10210.638544597201,
+        "MAPE": 0.9700475653887,
+        "MAE": 6689.489211064686,
+        "timestamp": "2025-01-05T18:56:31.645729"
+    },
+    "models/property_friends_v31.pkl": {
+        "RMSE": 10210.6385445972,
+        "MAPE": 0.9700475653887,
+        "MAE": 6689.489211064687,
+        "timestamp": "2025-01-05T18:56:32.339684"
+    },
+    "models/property_friends_v35.joblib": {
+        "RMSE": 10210.638544597201,
+        "MAPE": 0.9700475653886997,
+        "MAE": 6689.489211064686,
+        "timestamp": "2025-01-05T19:14:50.772467"
+    },
+    "models/property_friends_v36.joblib": {
+        "RMSE": 10210.638544597201,
+        "MAPE": 0.9700475653887,
+        "MAE": 6689.489211064687,
+        "timestamp": "2025-01-05T19:15:04.415006"
+    },
+    "models/property_friends_v37.joblib": {
+        "RMSE": 10210.638544597201,
+        "MAPE": 0.9700475653886999,
+        "MAE": 6689.489211064687,
+        "timestamp": "2025-01-05T19:15:05.527096"
+    },
+    "models/property_friends_v38.joblib": {
+        "RMSE": 10210.638544597201,
+        "MAPE": 0.9700475653886999,
+        "MAE": 6689.489211064687,
+        "timestamp": "2025-01-05T19:15:06.611952"
+    },
+    "models/property_friends_v39.joblib": {
+        "RMSE": 10210.6385445972,
+        "MAPE": 0.9700475653886999,
+        "MAE": 6689.489211064686,
+        "timestamp": "2025-01-05T19:15:07.665010"
+    },
+    "models/property_friends_v41.joblib": {
+        "RMSE": 10210.6385445972,
+        "MAPE": 0.9700475653886999,
+        "MAE": 6689.489211064686,
+        "timestamp": "2025-01-05T19:23:10.380738"
+    },
+    "models/property_friends_v43.joblib": {
+        "RMSE": 10210.6385445972,
+        "MAPE": 0.9700475653887,
+        "MAE": 6689.489211064687,
+        "timestamp": "2025-01-05T19:24:27.996042"
+    },
+    "models/property_friends_v44.joblib": {
+        "RMSE": 10210.6385445972,
+        "MAPE": 0.9700475653887,
+        "MAE": 6689.489211064687,
+        "timestamp": "2025-01-05T19:48:49.253315"
+    },
+    "models/property_friends_v45.joblib": {
+        "RMSE": 10718.93606723608,
+        "MAPE": 0.6796891689549366,
+        "MAE": 6790.089379717805,
+        "timestamp": "2025-01-05T19:49:17.913566"
+    },
+    "models/property_friends_v46.joblib": {
+        "RMSE": 10718.93606723608,
+        "MAPE": 0.6796891689549366,
+        "MAE": 6790.089379717805,
+        "timestamp": "2025-01-05T19:49:23.797629"
+    },
+    "models/property_friends_v47.joblib": {
+        "RMSE": 10718.93606723608,
+        "MAPE": 0.6796891689549365,
+        "MAE": 6790.089379717805,
+        "timestamp": "2025-01-05T19:49:25.345658"
+    },
+    "models/property_friends_v48.joblib": {
+        "RMSE": 10718.93606723608,
+        "MAPE": 0.6796891689549364,
+        "MAE": 6790.089379717805,
+        "timestamp": "2025-01-05T19:49:30.426878"
+    },
+    "models/property_friends_v49.joblib": {
+        "RMSE": 10718.93606723608,
+        "MAPE": 0.6796891689549365,
+        "MAE": 6790.089379717805,
+        "timestamp": "2025-01-05T20:00:54.099902"
+    },
+    "models/property_friends_v50.joblib": {
+        "RMSE": 10718.93606723608,
+        "MAPE": 0.6796891689549366,
+        "MAE": 6790.089379717805,
+        "timestamp": "2025-01-05T20:00:57.169319"
+    },
+    "models/property_friends_v51.joblib": {
+        "RMSE": 10718.93606723608,
+        "MAPE": 0.6796891689549365,
+        "MAE": 6790.089379717805,
+        "timestamp": "2025-01-05T20:00:58.536427"
+    },
+    "models/property_friends_v52.joblib": {
+        "RMSE": 10718.93606723608,
+        "MAPE": 0.6796891689549364,
+        "MAE": 6790.089379717805,
+        "timestamp": "2025-01-05T20:00:59.877149"
+    },
+    "models/property_friends_v53.joblib": {
+        "RMSE": 10718.93606723608,
+        "MAPE": 0.6796891689549366,
+        "MAE": 6790.089379717805,
+        "timestamp": "2025-01-05T20:01:01.659822"
+    },
+    "models/property_friends_v54.joblib": {
+        "RMSE": 10387.818071676005,
+        "MAPE": 0.5721848342493322,
+        "MAE": 6284.382630371863,
+        "timestamp": "2025-01-05T20:01:16.134069"
+    },
+    "models/property_friends_v55.joblib": {
+        "RMSE": 10387.818071676005,
+        "MAPE": 0.5721848342493321,
+        "MAE": 6284.382630371862,
+        "timestamp": "2025-01-05T20:01:19.953693"
+    },
+    "models/property_friends_v56.joblib": {
+        "RMSE": 10387.78513932145,
+        "MAPE": 0.5721699946705887,
+        "MAE": 6284.399340261187,
+        "timestamp": "2025-01-05T20:01:29.826131"
+    },
+    "models/property_friends_v57.joblib": {
+        "RMSE": 10387.78513932145,
+        "MAPE": 0.5721699946705887,
+        "MAE": 6284.399340261186,
+        "timestamp": "2025-01-05T20:01:34.332755"
+    },
+    "models/property_friends_v58.joblib": {
+        "RMSE": 10210.638544597201,
+        "MAPE": 0.9700475653887,
+        "MAE": 6689.489211064687,
+        "timestamp": "2025-01-05T20:05:13.581004"
+    },
+    "models/property_friends_v59.joblib": {
+        "RMSE": 10718.93606723608,
+        "MAPE": 0.6796891689549366,
+        "MAE": 6790.089379717805,
+        "timestamp": "2025-01-05T20:05:19.523702"
+    },
+    "models/property_friends_v60.joblib": {
+        "RMSE": 10718.93606723608,
+        "MAPE": 0.6796891689549365,
+        "MAE": 6790.089379717805,
+        "timestamp": "2025-01-05T20:28:59.424055"
     }
 }

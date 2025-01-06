@@ -13,6 +13,7 @@ import pickle
 import os
 import json
 from datetime import datetime
+import data_processing
 
 def load_data_from_csv(train_path: str, test_path: str) -> (pd.DataFrame, pd.DataFrame):
     """Loads the train and test data into pandas DataFrames from CSV files"""
@@ -20,12 +21,34 @@ def load_data_from_csv(train_path: str, test_path: str) -> (pd.DataFrame, pd.Dat
     test = pd.read_csv(test_path)
     return train, test
 
-def load_data_from_db(db_url: str, table_name: str, test_size: float = 0.2, random_state: int = 42) -> (pd.DataFrame, pd.DataFrame):
-    """Loads data from a database and splits it into train and test sets using scikit-learn."""
+def load_data_from_db(db_url: str, table_name: str) -> (pd.DataFrame, pd.DataFrame):
+    """Loads data from a database, splits it into train and test sets based on the 'is_test' column, 
+    and then drops the 'is_test' column from both sets."""
     engine = create_engine(db_url)
     query = f"SELECT * FROM {table_name}"
     data = pd.read_sql(query, engine)
     
+    # Separate the data into two dataframes based on the value of the column "is_test"
+    test_data = data[data['is_test'] == True].copy()
+    train_data = data[data['is_test'] == False].copy()
+    
+    # Drop the column "is_test" in both dataframes
+    test_data = test_data.drop(columns=['is_test'])
+    train_data = train_data.drop(columns=['is_test'])
+    
+    return train_data, test_data
+
+
+def load_data_from_db_best_practice(db_url: str, table_name: str, test_size: float = 0.2, random_state: int = 42) -> (pd.DataFrame, pd.DataFrame):
+    """Loads data from a database and splits it into train and test sets using scikit-learn."""
+    engine = create_engine(db_url)
+    query = f"SELECT * FROM {table_name}"
+    data = pd.read_sql(query, engine)
+    data = data.drop(columns=['is_test'])
+
+    #data processing step:
+    data = data_processing.remove_invalid_rows(data)
+    data = data_processing.feature_engineering(data)
     # Use train_test_split
     train, test = train_test_split(data, test_size=test_size, random_state=random_state)
     
@@ -78,10 +101,15 @@ def train_and_evaluate(data_source: str, train_path: str = None, test_path: str 
         if not db_url or not table_name:
             raise ValueError("For DB data source, both db_url and table_name must be provided.")
         train, test = load_data_from_db(db_url, table_name)
+    elif data_source == 'db_best_practice':
+        if not db_url or not table_name:
+            raise ValueError("For DB data source, both db_url and table_name must be provided.")
+        train, test = load_data_from_db_best_practice(db_url, table_name)
+        
     else:
         raise ValueError("Invalid data source. Choose either 'csv' or 'db'.")
 
-    train_cols = [col for col in train.columns if col not in ['id', 'price', 'is_test']]
+    train_cols = [col for col in train.columns if col not in ['id', 'price']]
     target = "price"
     categorical_cols = ["type", "sector"]
 
